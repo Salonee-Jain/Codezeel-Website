@@ -76,14 +76,7 @@ navbar__btn{
     padding: 0 1rem;
     width: 100%;
 }
-
-
-@media screen(max-width: 960px){
-    .navbar__container{
-        
-    }
-    
-}
+.button{
     
     display: flex;
     justify-content:center;
@@ -100,6 +93,7 @@ navbar__btn{
     background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     transition: all 0.3s ease;
+    margin-left: 20px;
 }
 .navbar__links:hover{
     color: #9551fc;
