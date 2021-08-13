@@ -90,10 +90,10 @@
     outline: none;
     border-radius: 4px;
     background: #833ab4;
-    color: rgb(252, 252, 252);
     background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     transition: all 0.3s ease;
+    color: rgb(252, 252, 252);
     margin-left: 20px;
 }
 .navbar__links:hover{
