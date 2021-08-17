@@ -9,3 +9,4 @@ const MobileMenu = () =>{
 }
 
 menu.addEventListener('click', MobileMenu);
+
