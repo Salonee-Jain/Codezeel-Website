@@ -441,12 +441,12 @@
 @media screen and (max-width: 480px){
     .main__image--card{
         margin-top: -30px;
-        width: 250px;
-        height: 250px;
+        width: 260px;
+        height: 260px;
 
     }
     .fa-users, .fa-space-shuttle{
-        font-size:4rem;
+        font-size:6rem;
 
     }
     .main__content h1{
