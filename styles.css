@@ -170,7 +170,7 @@
     #mobile-menu{
         position: absolute;
         top: 20%;
-        right: 5%;
+        right: 8%;
         transform: translate(5%, 20%);
     }
     .navbar__toggle .bar{
@@ -236,8 +236,13 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     font-size: 60px;
-    
+    margin-bottom: 34px;
 }
+
+.highlight{
+    border-bottom: 4px solid rgb(132, 0, 255);
+}
+    
 
 .main__btn{
     height: 50px;
@@ -250,6 +255,33 @@
     transition: all 0.3s ease;
     
 }
+
+@media screen and (max-width: 768px){
+    .hero{
+        padding: 100px 0
+    }
+
+    .hero__heading{
+        font-size: 60px;
+    }
+
+    .hero__description{
+        font-size: 40px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .main__btn a{
     text-decoration: none;
