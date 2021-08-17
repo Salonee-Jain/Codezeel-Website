@@ -7,6 +7,7 @@
     padding: 0;
     font-family:  'Kumbh Sans', sans-serf;
     scroll-behavior: smooth;
+    
 }
 
 
@@ -402,47 +403,65 @@
         grid-template-columns:1fr;
         align-items: center;
         justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90%;
 
     }
-
     .main__image--container{
         display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 250px;
-        width: 250px;
-        background: rgb(58,173,180);
-        background: linear-gradient(90deg, rgba(58,173,180,1) 0%, rgba(153,29,253,1) 50%, rgba(252,69,134,1) 100%);
-        border-radius: 5px;
+        justify-content:center;
     }
+
     .main__image--card{
-        color: white;
+        height: 425px;
+        width: 425px;
     }
 
     .main__content{
-        margin: 15px;
-        justify-content:center;
-        align-items: center;
         text-align: center;
-    }
-    .main__content h2{
-        margin-bottom: 15px;
-
+        margin-bottom: 4rem;
     }
     .main__content h1{
-        margin-bottom: 20px;
-        font-size:40px;
+        font-size:2,5rem;
+        margin-top: 2rem;
+
     }
-
+    .main__content h2{
+        font-size:3rem;
+        
+    }
     .main__content p{
-        color: white;
-        font-size:20px;
-        margin-bottom: 20px;
-
+        margin-top: 1rem;
+        font-size:1.5rem;
+        
     }
 
 }
+@media screen and (max-width: 480px){
+    .main__image--card{
+        margin-top: -30px;
+        width: 250px;
+        height: 250px;
 
+    }
+    .fa-users, .fa-space-shuttle{
+        font-size:4rem;
 
+    }
+    .main__content h1{
+        font-size:2rem;
+        margin-top: 3rem;
+    }
 
+    .main__content h2{
+        font-size:1.92rem;
+    }
+    
+    .main__content p{
+        font-size:1.5rem;
+        margin: 1rem;
+    }
+
+}
 
