@@ -36,7 +36,7 @@
 
 #navbar__logo{
     background-color: #ff0808;
-    background-image: linear-gradient(to top, #ffb199 0%, #ff0808 100%);
+    background-image: linear-gradient(to top, #ec5a2e 0%, #ff0808 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -456,6 +456,12 @@
 
     .main__content h2{
         font-size:1.92rem;
+    }
+
+    .main__btn{
+        padding: 12px 36px;
+        margin: 2.5rem 0;;
+        
     }
     
     .main__content p{
