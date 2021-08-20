@@ -704,9 +704,11 @@ background: linear-gradient(90deg, rgba(72,241,56,1) 0%, rgba(249,29,29,1) 100%)
     margin-bottom: 0.5rem;
     transition: 0.3 ease-out;
   }
+
+ 
   
   .footer__link--items a:hover {
-    color: #e9e9e9;
+    color: #6f15d6;
     transition: 0.3 ease-out;
   }
   
@@ -734,7 +736,22 @@ background: linear-gradient(90deg, rgba(72,241,56,1) 0%, rgba(249,29,29,1) 100%)
     justify-content: space-between;
     align-items: center;
     width: 240px;
+
   }
+
+  .social__icon--link:hover{
+    background-color: #da22ff;
+    background: linear-gradient(to right, #3109e6, #da22ff);
+    background: -webkit-linear-gradient(to right, #3109e6, #da22ff);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+
+
   
   .website__rights {
     color: #fff;
