@@ -29,7 +29,7 @@ const highlightMenu = () => {
     homeMenu.classList.remove('highlight');
     coursesMenu.classList.remove('highlight');
     return;
-  } else if (window.innerWidth > 960 && scrollPos < 2345) {
+  } else if (window.innerWidth > 960 && scrollPos < 2545) {
     coursesMenu.classList.add('highlight');
     aboutMenu.classList.remove('highlight');
     return;
