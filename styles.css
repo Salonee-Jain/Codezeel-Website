@@ -751,9 +751,31 @@ background: linear-gradient(90deg, rgba(72,241,56,1) 0%, rgba(249,29,29,1) 100%)
     -moz-text-fill-color: transparent;
   }
 
+  #footer__logo:hover{
+    background-color: #da22ff;
+    background: linear-gradient(to right, #3109e6, #da22ff);
+    background: -webkit-linear-gradient(to right, #3109e6, #da22ff);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+     transition: 1s ease-in-out;
+  }
+
+  #navbar__logo:hover{
+    background-color: #da22ff;
+    background: linear-gradient(to right, #3109e6, #da22ff);
+    background: -webkit-linear-gradient(to right, #3109e6, #da22ff);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    animation: all 1s ease-in-out;
+  }
 
 
-  
   .website__rights {
     color: #fff;
   }
